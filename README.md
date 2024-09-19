@@ -14,6 +14,11 @@ Prerequisites:
 
 Implementation:
 1. Go to Nuget package Manager -> install Asp.Versioning.Mvc and Asp.Versioning.Mvc.ApiExplorer
+   
+   Use shortcut Alt V E O (View → Other windows → Package Manager Console)
+   dotnet add package Asp.Versioning.Mvc
+   dotnet add package Asp.Versioning.Mvc.ApiExplorer
+
 2. In program.cs file add below code before (var app = builder.Build();)
 ````
 builder.Services.AddApiVersioning(option =>
