@@ -6,7 +6,7 @@ namespace API_Versioning.Controllers
 {
     [ApiVersion("1.0")]
     [ApiVersion("2.0")]
-    [Route("api/v{version:ApiVersion}/[controller]")]
+    [Route("api/v{version:apiVersion}/[controller]")]
     [ApiController]
     public class ProductController : ControllerBase
     {

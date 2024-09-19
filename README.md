@@ -47,4 +47,4 @@ builder.Services.AddApiVersioning(option =>
 Reference: 
 1. https://medium.com/@softsusanta/net-core-api-versioning-implementation-step-by-step-92107e447798
 2. https://github.com/9susanta/Articles/tree/219432bab6f59153bd4e6c6b398a6f34526a4c80/APIVersioning
-
+3. https://weblogs.asp.net/ricardoperes/asp-net-core-api-versioning
